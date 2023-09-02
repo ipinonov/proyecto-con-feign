@@ -12,6 +12,8 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class UserService {
 
+    //conexion con feign
+
     private final UserFeignClient client;
 
     public List<UserDTO> getUser(){
